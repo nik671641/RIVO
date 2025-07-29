@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RIVO</title>
+    <link rel="stylesheet" href="{% static 'mainrivo/css/style.css' %}">
+
+</head>
+<body>
+<header class="navbar">
+    <div class="navbar__logo">
+        <a href="/">
+            <img src="{% static 'mainrivo/img/logo.png' %}" alt="Rivo Logo">
+        </a>
+    </div>
+
+    <nav class="navbar__menu">
+        <a href="#">Projects<sup class="navbar__sup">16</sup></a>
+        <a href="#">Services</a>
+        <a href="#">Expertise</a>
+        <a href="/contacts/">Contacts</a>
+        <a href="#">Careers <span class="navbar__hot">HOT</span></a>
+    </nav>
+
+    <div class="navbar__menu-toggle">
+        <span class="navbar__burger"><img src="{% static 'mainrivo/img/Burger_menu_icon.png' %}"
+                                          alt="Burger_menu"></span>
+        <span class="navbar__menu-text">MENU</span>
+    </div>
+</header>
+
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+<footer>
+    <p>© RIVO 2025</p>
+</footer>
+<script src="{% static 'mainrivo/js/main.js' %}"></script>
+</body>
+</html>

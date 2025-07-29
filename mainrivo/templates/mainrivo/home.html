@@ -1,0 +1,307 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <section class="hero">
+        <div class="hero-text">
+
+            <div class="hero__header">
+                <span>WE ARE RIVO AGENCY</span>
+            </div>
+            <div class="hero__title">
+
+                <div class="hero__title-row">
+                    <div class="hero__circle-container">
+                        <img src="{% static 'mainrivo/img/Fabulous.png' %}" alt="idea" class="hero__circle">
+                    </div>
+                    <h1>WE HELP</h1>
+                </div>
+
+
+                <div class="hero__media-row">
+                    <h1>IDEAS</h1>
+                    <div class="hero__video">
+                        <img src="{% static 'mainrivo/img/Rectangle_466.png' %}" alt="video">
+                        <div class="hero__play-btn">▶</div>
+                    </div>
+                </div>
+
+
+                <div class="hero__title-row">
+                    <div class="hero__change-container">
+                        <img src="{% static 'mainrivo/img/Rectangle_467.png' %}" alt="photo" class="hero__change">
+                    </div>
+                    <h1>CHANGE</h1>
+                </div>
+
+
+                <h1>THE WORLD</h1>
+            </div>
+        </div>
+        <div class="hero__footer">
+            <div class="hero__socials">
+                <a href="#"><i class="icon-facebook"></i></a>
+                <a href="#"><i class="icon-linkedin"></i></a>
+                <a href="#"><i class="icon-instagram"></i></a>
+            </div>
+            <div class="hero__contact-button"><img src="{% static 'mainrivo/img/Contact_us_button.png' %}" alt="video">
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="container">
+            <h2 class="about-us__title">WHO WE ARE</h2>
+
+            <div class="about-us__content">
+                <!-- Видеоблок -->
+                <div class="about-us__video-wrapper">
+                    <img src="{% static 'mainrivo/img/Video.png' %}" alt="Office video" class="about-us__video">
+                    <div class="about-us__play-button">▶</div>
+                </div>
+
+                <!-- Текстовый блок -->
+                <div class="about-us__text">
+                    <h3>HI! WE ARE A TEAM OF PROFESSIONALS</h3>
+                    <p>
+                        With proven expertise in delivering effective, secured and high-quality digital solutions
+                        for various industries and digital marketing.
+                    </p>
+                    <h4>OUR COMPANY</h4>
+                    <p>
+                        Offers development of different products starting from simple promo websites for individuals or
+                        companies,
+                        and finishing with complicated solutions for multiple purposes, e.g.
+                        <br><br>
+                        CRM and ERP systems, scalable web platforms, mobile applications, Internet-of-Things, etc.
+                        <br><br>
+                        We apply our expertise and knowledge to take your product from concept to prototype and to
+                        production.
+                    </p>
+                    <div class="about-us__reviews">
+                        <img src="{% static 'mainrivo/img/Cloch_icon.png' %}" alt="Clutch">
+                        <div class="stars">
+                            <strong>★★★★★</strong><br>
+                            <span>10 Reviews</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="services__title">SERVICES & TECH STACK</h2>
+
+            <div class="services__item">
+
+                <div class="services__content__v1">
+                    <h3 class="services__heading">Custom<br>Software </h3>
+                    <p class="services__text">
+                        Using our great experience in a variety of technology stacks and industries,
+                        we provide customized software tailored to your business needs.
+                        Our experts design and develop a fast-loading, secure, and scalable SaaS solution
+                        that easily integrates with third-party services.
+                    </p>
+                </div>
+            </div>
+
+            <div class="services__item">
+
+                <div class="services__content__v2">
+                    <h3 class="services__heading">Mobile<br>Development</h3>
+                    <p class="services__text">
+                        Request mobile app development at Rivo Agency to present your business to a wider audience,
+                        keep in touch with your customers, discover their needs and win their loyalty.
+                        Our app developers create customized solutions for iOS and Android devices that simplify
+                        customer interactions.
+                    </p>
+                </div>
+            </div>
+
+            <div class="services__item">
+
+                <div class="services__content__v2">
+                    <h3 class="services__heading">Web<br>Development</h3>
+                    <p class="services__text">
+                        Start developing your software with us to improve the efficiency of your business
+                        and attract potential customers. Having 10+ years of experience as a web & mobile
+                        app development company, we know how to create fast and powerful web apps that will serve
+                        your business for years.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="industry">
+        <div class="container">
+            <h2 class="industry__title">INDUSTRY EXPERTISE</h2>
+
+            <ul class="industry__list">
+                <li>Retail & Ecommerce</li>
+                <li>Real Estate</li>
+                <li>Custom CRM</li>
+                <li>Education & e-learning</li>
+                <li>Food & Restaurant</li>
+                <li>Healthcare & Fitness</li>
+                <li>Logistics & Distribution</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2 class="projects__title">PROJECTS</h2>
+
+            <div class="projects__grid">
+                <div class="project-card">
+                    <img src="{% static 'mainrivo/img/rivo-crm.png' %}" alt="Rivo CRM">
+                    <div class="project-card__info">
+                        <span class="project-card__year">2020</span>
+                        <h3 class="project-card__name">Rivo CRM</h3>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="{% static 'mainrivo/img/saltmine.png' %}" alt="Saltmine">
+                    <div class="project-card__info">
+                        <span class="project-card__year">2020</span>
+                        <h3 class="project-card__name">Saltmine</h3>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="{% static 'mainrivo/img/odex.png' %}" alt="Odex">
+                    <div class="project-card__info">
+                        <span class="project-card__year">2020</span>
+                        <h3 class="project-card__name">Odex</h3>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="{% static 'mainrivo/img/jotul.png' %}" alt="Jotul">
+                    <div class="project-card__info">
+                        <span class="project-card__year">2020</span>
+                        <h3 class="project-card__name">Jotul</h3>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="{% static 'mainrivo/img/haulcars.png' %}" alt="Haul Cars">
+                    <div class="project-card__info">
+                        <span class="project-card__year">2020</span>
+                        <h3 class="project-card__name">Haul Cars</h3>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="{% static 'mainrivo/img/skyline.png' %}" alt="Skyline Energy">
+                    <div class="project-card__info">
+                        <span class="project-card__year">2020</span>
+                        <h3 class="project-card__name">Skyline Energy</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects__footer">
+                <a href="#" class="projects__more-btn">SHOW MORE CASES →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="contact-title">CONTACTS</h2>
+
+            <div class="contact-grid">
+                <!-- Форма -->
+                <form class="contact-form">
+                    <div class="form-radio">
+                        <div class="custom-radio">
+                            <input type="radio" name="role" checked>
+                            <span>Sales Representative</span>
+                        </div>
+                        <div class="custom-radio">
+                            <input type="radio" name="role">
+                            <span>Sales Representative</span>
+                        </div>
+                    </div>
+
+                    <label>Name
+                        <input type="text" name="name">
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <label>Email<input type="email" id="email" oninput="validateEmail()"></label>
+                        <div id="email-error" class="error-text">
+                            Email must contain the @ symbol
+                            <img src="{% static 'mainrivo/img/Info_icon.png' %}" alt="icon" class="error-icon">
+                        </div>
+                    </div>
+
+
+                    <label>Phone
+                        <input type="tel" name="phone">
+                    </label>
+
+                    <label>Message
+                        <textarea name="message" placeholder="Type your message here"
+                                  style="width: 697px; height: 30px;"></textarea>
+                    </label>
+
+                    <div class="custom-file">
+                        <label for="file">Attach file</label>
+                        <div class="custom-file-wrapper">
+                            <span class="custom-file-name">No file chosen</span>
+                            <img src="{% static 'mainrivo/img/clip.png' %}" alt="clip" class="custom-file-icon">
+                            <input type="file" id="file" name="file" class="custom-file-input"
+                                   onchange="updateFileName(this)">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">SEND MESSAGE ↗</button>
+                </form>
+
+                <!-- Контакты -->
+                <div class="contact-info">
+                    <h3>LET’S MAKE SOMETHING THAT MATTERS</h3>
+
+                    <div class="info-block">
+                        <p><strong>Drop us a line</strong><br>
+                            <a href="mailto:sales@rivo.agency">sales@rivo.agency</a></p>
+
+                        <div class="socials">
+                            <a href="https://facebook.com/yourpage" target="_blank">
+                                <img src="{% static 'mainrivo/img/facebook.png' %}" alt="Facebook">
+                            </a>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank">
+                                <img src="{% static 'mainrivo/img/linkedin.png' %}" alt="LinkedIn">
+                            </a>
+                            <a href="https://instagram.com/yourprofile" target="_blank">
+                                <img src="{% static 'mainrivo/img/instagram.png' %}" alt="Instagram">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="info-block">
+                        <div>
+                            <strong>Estonia</strong><br>
+                            401 S Milwaukee Ave Wheeling, IL 60090, USA<br>
+                            +1 347 705 79 35
+                        </div>
+
+                        <div>
+                            <strong>Ukraine</strong><br>
+                            Rivne, A. Melnyk str.1, 33016<br>
+                            +380 96 424 71 50
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+{% endblock %}
